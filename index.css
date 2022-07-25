@@ -3,6 +3,16 @@
     src: url(/res/Fonts/Winner/Winner-Regular.ttf);
 }
 
+@font-face {
+    font-family: WinnerNarrowLight;
+    src: url(/res/Fonts/Winner/Winner-NarrowLight.ttf);
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(/res/Fonts/Pacifico.ttf);
+}
+
 
 html, body {
     margin: 0;
@@ -47,7 +57,7 @@ nav a{
 }
 
 .ladybugRed{
-    color: #a24443;
+    color: #b74745;
 }
 
 .white{
@@ -55,16 +65,27 @@ nav a{
 }
 
 #welcome{
-    font-family: Calibri;
+    font-family: WinnerNarrowLight;
     margin-top: 0;
     font-size: 50px;
 }
 
 #welcomeHeading{
-    font-family: Calibri;
+    font-family: WinnerNarrowLight;
     margin-top: 0;
     margin-bottom: 5rem;
     font-size: 75px;
+}
+
+.services{
+    width: 90%;
+    font-family: Calibri;
+    font-size: 25px;
+    text-align: center;
+}
+
+.listItems{
+    text-align: center;
 }
 
 /* footer{
