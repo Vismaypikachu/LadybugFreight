@@ -1,6 +1,6 @@
 @font-face {
-    font-family: WimnerBold;
-    src: url(/res/Fonts/Winner/Winner-Bold.ttf);
+    font-family: WinnerRegular;
+    src: url(/res/Fonts/Winner/Winner-Regular.ttf);
 }
 
 
@@ -37,35 +37,17 @@ nav a{
     margin: 0 auto;
 } 
 
-.carousel-inner > .carousel-item > img {
-    height: 90vh;
-    width: 100%;
-    object-fit: contain; 
-}
-
 
 #logo{
     text-align: center;
 }
 
-.wildlinGreen{
-    color: #6f8987;
+.ladybugBlue{
+    color: #2a72d8;
 }
 
-.wildlinLightBlue{
-    color: #6d92a9;
-}
-
-.wildlinLightGrey{
-    color: #74849d;
-}
-
-.wildlinGrey{
-    color: #555b6d;
-}
-
-.wildlinBlue{
-    color: #3fa2db;
+.ladybugRed{
+    color: #a24443;
 }
 
 .white{
