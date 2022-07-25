@@ -20,6 +20,12 @@ html, body {
     overflow-x: hidden;
 }
 
+h1{
+    font-family: Pacifico;
+    text-decoration: underline wavy;
+    text-underline-position: below;
+}
+
 *  {
     box-sizing: border-box;
 }
