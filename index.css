@@ -18,10 +18,16 @@
     src: url(/res/Fonts/Playfair/PlayfairDisplay-Regular.ttf);
 }
 
+@font-face {
+    font-family: Arvo;
+    src: url(/res/Fonts/Arvo/Arvo-Regular.ttf);
+}
+
 html, body {
     margin: 0;
     background-color: #FAFAFA;
     overflow-x: hidden;
+    font-family: Arvo;
 }
 
 h1{
@@ -95,7 +101,12 @@ nav a{
 }
 
 .listItems{
+    font-family: Arvo;
     text-align: center;
+}
+
+.listItems p{
+    font-size: 20px;
 }
 
 /* footer{
